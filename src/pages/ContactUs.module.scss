@@ -1,0 +1,36 @@
+@mixin heading {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: "nunito", "Courier New", Courier, monospace;
+}
+.contact-wrapper {
+  .banner {
+    background: rgb(66, 59, 182) url("../Assets/CMR-bg2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .heading {
+    @include heading();
+  }
+  .address-container {
+    font-family: "nunito", "Courier New", Courier, monospace;
+    .title {
+      font-weight: bold;
+      color: #3b3663;
+    }
+    .custom {
+      color: #5747e4;
+      font-weight: 400;
+    }
+    .desc {
+      font-weight: 400;
+      color: #696687;
+      line-height: 1.5em;
+      max-width: 15rem;
+    }
+  }
+}

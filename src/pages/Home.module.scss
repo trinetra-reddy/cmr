@@ -1,0 +1,129 @@
+@mixin commonFont {
+  font-weight: 600;
+  color: #3c3664;
+}
+.home-wrapper {
+  .banner-wrapper {
+    position: relative;
+    .banner-image-container {
+      position: absolute;
+      right: 0;
+      z-index: -1;
+      .banner-image {
+        text-align: right;
+      }
+    }
+  }
+  .spacer {
+    height: 220px;
+  }
+  .banner-text {
+    max-width: 1149px;
+    margin: auto;
+    padding: 1rem;
+    .content {
+      max-width: 42%;
+      h1 {
+        font-weight: 800 !important;
+        font-size: 4rem;
+        background: -webkit-linear-gradient(#b5afdf, #3c3664);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      h3 {
+        @include commonFont();
+        font-size: 2.2rem !important;
+      }
+      h4 {
+        @include commonFont();
+        font-size: 2rem !important;
+      }
+      h5 {
+        @include commonFont();
+        font-size: 1.5rem !important;
+      }
+      h6 {
+        @include commonFont();
+        font-size: 1.3rem;
+      }
+    }
+  }
+  .card-heading {
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    min-height: 5rem;
+  }
+  .card-img img {
+    width: 5rem !important;
+  }
+  .card-text {
+    padding-top: 27px;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: -0.5px;
+    position: relative;
+    &::before {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      content: "";
+      width: 32px;
+      height: 2px;
+      background-color: #3c3664;
+    }
+  }
+  .heading {
+    @include commonFont();
+    text-align: center;
+  }
+  .para {
+    @include commonFont();
+    font-size: 1.4rem;
+  }
+  .side-heading {
+    @include commonFont();
+    font-size: 2rem;
+  }
+  .about-count {
+    border-right: 1px solid #031b3835;
+    padding: 0.8rem;
+    .count {
+      font-size: 3.5rem;
+      font-weight: bolder;
+    }
+  }
+  .about-para {
+    padding: 1rem;
+    color: #3c366487;
+    align-self: center;
+    font-weight: 800;
+    &::before {
+      content: "\2022";
+      color: #6254e7;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+    }
+  }
+  .courses-card {
+    max-height: 230px;
+    .card-desc {
+      padding-top: 27px;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      position: relative;
+      &::before {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        content: "";
+        width: 32px;
+        height: 2px;
+        background-color: #3c3664;
+      }
+    }
+  }
+}

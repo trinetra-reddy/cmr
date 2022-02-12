@@ -1,0 +1,30 @@
+@import '../src/Assets/icomoon/icons.css';
+@import "./styles/variables";
+
+.primary-color {
+    color: $primary-color !important;
+}
+
+a {
+    color: $primary-color !important;
+
+    &:hover {
+        color: $secondary-color !important;
+    }
+    &.animated-link {
+        text-decoration: none;
+        &::after {
+            content: "";
+            display: block;
+            transition: width 0.1s;
+            transition-duration: 0.1s;
+            border-bottom: 1px solid;
+            width: 0;
+        }
+        &:hover {
+            &::after {
+                width: 100%;
+            }
+        }
+    }
+}

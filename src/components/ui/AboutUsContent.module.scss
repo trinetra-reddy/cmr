@@ -1,0 +1,33 @@
+@mixin commonFont {
+    font-weight: 600;
+    color: #3c3664;
+}
+.side-heading {
+    @include commonFont();
+    font-size: 2rem;
+}
+.para {
+    @include commonFont();
+    font-size: 1.4rem;
+}
+.about-count {
+    border-right: 1px solid #031b3835;
+    padding: 0.8rem;
+    .count {
+        font-size: 3.5rem;
+        font-weight: bolder;
+    }
+}
+.about-para {
+    padding: 1rem;
+    color: #3c366487;
+    align-self: center;
+    font-weight: 800;
+    &::before {
+        content: "\2022";
+        color: #6254e7;
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+    }
+}
