@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/cmr/static/css/main.5b891462.chunk.css",
-    "main.js": "/cmr/static/js/main.52eec185.chunk.js",
-    "main.js.map": "/cmr/static/js/main.52eec185.chunk.js.map",
-    "runtime-main.js": "/cmr/static/js/runtime-main.04a84f0c.js",
-    "runtime-main.js.map": "/cmr/static/js/runtime-main.04a84f0c.js.map",
+    "main.css": "/cmr/static/css/main.4e94ddcc.chunk.css",
+    "main.js": "/cmr/static/js/main.2ab435ee.chunk.js",
+    "main.js.map": "/cmr/static/js/main.2ab435ee.chunk.js.map",
+    "runtime-main.js": "/cmr/static/js/runtime-main.65ccb8d5.js",
+    "runtime-main.js.map": "/cmr/static/js/runtime-main.65ccb8d5.js.map",
     "static/css/2.53150396.chunk.css": "/cmr/static/css/2.53150396.chunk.css",
-    "static/js/2.06cdbd97.chunk.js": "/cmr/static/js/2.06cdbd97.chunk.js",
-    "static/js/2.06cdbd97.chunk.js.map": "/cmr/static/js/2.06cdbd97.chunk.js.map",
-    "static/js/3.f50aee79.chunk.js": "/cmr/static/js/3.f50aee79.chunk.js",
-    "static/js/3.f50aee79.chunk.js.map": "/cmr/static/js/3.f50aee79.chunk.js.map",
+    "static/js/2.9bb66bf7.chunk.js": "/cmr/static/js/2.9bb66bf7.chunk.js",
+    "static/js/2.9bb66bf7.chunk.js.map": "/cmr/static/js/2.9bb66bf7.chunk.js.map",
+    "static/js/3.05c1c53d.chunk.js": "/cmr/static/js/3.05c1c53d.chunk.js",
+    "static/js/3.05c1c53d.chunk.js.map": "/cmr/static/js/3.05c1c53d.chunk.js.map",
     "index.html": "/cmr/index.html",
     "static/css/2.53150396.chunk.css.map": "/cmr/static/css/2.53150396.chunk.css.map",
-    "static/css/main.5b891462.chunk.css.map": "/cmr/static/css/main.5b891462.chunk.css.map",
-    "static/js/2.06cdbd97.chunk.js.LICENSE.txt": "/cmr/static/js/2.06cdbd97.chunk.js.LICENSE.txt",
+    "static/css/main.4e94ddcc.chunk.css.map": "/cmr/static/css/main.4e94ddcc.chunk.css.map",
+    "static/js/2.9bb66bf7.chunk.js.LICENSE.txt": "/cmr/static/js/2.9bb66bf7.chunk.js.LICENSE.txt",
     "static/media/Banner.module.scss": "/cmr/static/media/CMR-bg2.5867fa28.jpg",
     "static/media/Logo.398541fa.png": "/cmr/static/media/Logo.398541fa.png",
     "static/media/cmrOracleHcm.f6af309e.png": "/cmr/static/media/cmrOracleHcm.f6af309e.png",
+    "static/media/cmrService.661b9cdd.png": "/cmr/static/media/cmrService.661b9cdd.png",
     "static/media/cmrdevops.61b0636a.png": "/cmr/static/media/cmrdevops.61b0636a.png",
     "static/media/cmrtesting.17e9ec6f.png": "/cmr/static/media/cmrtesting.17e9ec6f.png",
     "static/media/cmrui.1ab3085a.png": "/cmr/static/media/cmrui.1ab3085a.png",
@@ -28,10 +29,10 @@
     "static/media/sap.1a1eb09a.png": "/cmr/static/media/sap.1a1eb09a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.04a84f0c.js",
+    "static/js/runtime-main.65ccb8d5.js",
     "static/css/2.53150396.chunk.css",
-    "static/js/2.06cdbd97.chunk.js",
-    "static/css/main.5b891462.chunk.css",
-    "static/js/main.52eec185.chunk.js"
+    "static/js/2.9bb66bf7.chunk.js",
+    "static/css/main.4e94ddcc.chunk.css",
+    "static/js/main.2ab435ee.chunk.js"
   ]
 }
