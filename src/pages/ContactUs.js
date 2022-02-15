@@ -31,7 +31,7 @@ const ContactUs = () => {
             <div className={classes["address-container"]}>
               <div className={classes.title}>Send Mail</div>
               <div className={classes.desc}>
-                cmrachieverssolotions@gmail.com
+                cmrachieverssolutions@gmail.com
               </div>
             </div>
             <div className={classes["address-container"]}>

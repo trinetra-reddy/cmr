@@ -24,9 +24,9 @@ export const SocialMediaHeader = () => {
                     </a>
                 </li>
                 <li>
-                    <a href="mailto:cmrachieverssolotions@gmail.com?subject=Enquiring for" target="_blank">
+                    <a href="mailto:cmrachieverssolutions@gmail.com?subject=Enquiring for" target="_blank">
                         <span className="icon-mail2"></span>
-                        <span>cmrachieverssolotions@gmail.com</span>
+                        <span>cmrachieverssolutions@gmail.com</span>
                     </a>
                 </li>
             </ul>
