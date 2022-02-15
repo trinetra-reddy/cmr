@@ -1,0 +1,43 @@
+@mixin commonFont {
+  font-weight: 600;
+  color: #3c3664;
+}
+
+.content {
+  h4 {
+    @include commonFont();
+  }
+  p {
+    @include commonFont();
+    font-weight: 500;
+  }
+}
+.about-team-help {
+  background-color: #f9f8fe;
+  .heading {
+    text-align: center;
+    font-weight: 800;
+    line-height: 2.6rem;
+    padding: 1rem;
+  }
+  .about-content {
+    .one {
+      @include commonFont();
+      color: #695ce8;
+    }
+    .two {
+      @include commonFont();
+      color: #f47514;
+    }
+    .three {
+      @include commonFont();
+      color: #698;
+    }
+    padding: 40px 22px 33px 40px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    &:hover {
+      background-color: #ffffff;
+    }
+  }
+}

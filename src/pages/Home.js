@@ -168,9 +168,9 @@ export const Home = () => {
                 <h3 className={`${classes.heading} mb-3`}>
                   Provide Awesome Service
                 </h3>
-                <div className="row">
+                <div className={`row ${classes.cards}`}>
                   {Features.map((item, index) => (
-                    <div className="col-md-3" key={index}>
+                    <div className="col-md-4 col-lg-3" key={index}>
                       <Card>
                         <div className={`${classes["card-heading"]} nunito`}>
                           {item.title}
@@ -265,7 +265,7 @@ export const Home = () => {
                 </h3>
                 <div className="row">
                   {Courses.map((item, index) => (
-                    <div className="col-md-3" key={index}>
+                    <div className="col-md-4 col-lg-3" key={index}>
                       <Card className={classes["courses-card"]}>
                         <div className={classes["card-img"]}>
                           <img

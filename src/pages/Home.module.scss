@@ -49,6 +49,9 @@
       }
     }
   }
+  .cards {
+    flex-wrap: wrap;
+  }
   .card-heading {
     font-size: 1.2rem;
     font-weight: 900;
@@ -125,5 +128,10 @@
         background-color: #3c3664;
       }
     }
+  }
+}
+@media screen and (max-width: "768px") {
+  .content {
+    max-width: 100% !important;
   }
 }

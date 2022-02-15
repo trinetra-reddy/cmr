@@ -1,13 +1,12 @@
 .card {
   height: 300px;
-  width: 240px;
   color: #3c3664;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2), 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 1em;
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  margin-bottom: 2rem;
+  margin: auto auto 2rem auto;
   padding: 2rem 1.5rem;
   transition: all 0.4s;
   &:hover {
